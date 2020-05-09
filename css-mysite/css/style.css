@@ -1,0 +1,157 @@
+body {
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #f7fbfc;
+}
+/*Fonst size
+16px = 100% = 1em
+% és em dinamikus
+és öröklődnek hozzáadódnak a szüleik méretei
+rem = ignorálja a szülő méretet*/
+
+
+h1 {
+
+  margin-top:50px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.25rem;
+  color:#66BFBF;
+  margin-bottom:0;
+  line-height: 2;
+  height:140px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:#66BFBF;
+  font-size:2.6rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.6rem;
+}
+
+.topContainer {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middleContainer {
+
+}
+
+.bottomContainer {
+  background-color: #66BFBF;
+  padding: 30px;
+}
+
+
+.bottomCloud {
+  position: absolute;
+  bottom: 300;
+  left: 300px;
+
+}
+
+.topCloud {
+  position: absolute;
+  top: 30px;
+  right: 450px;
+
+}
+a {
+  color: #11999E;
+}
+
+.skillRow {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skillOne {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillTwo {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.topH2 {
+  margin-top: 0;
+  font-size:2rem;
+  font-weight: normal;
+}
+
+.profile {
+  width: 25%;
+  margin: 50px auto 0 auto;
+}
+
+.introductionParagraph {
+  color: #40514E;
+  margin-bottom: 100px;
+}
+
+hr {
+  width: 10%;
+  border-style:dotted none none none;
+  border-width: 5px;
+  color: lightgrey;
+}
+
+.contactMe {
+  width: 35%;
+  margin: 75px auto 100px auto;
+}
+
+.contactMeH3 {
+  font-size: 1.3rem;
+
+}
+
+.btn {
+	background:linear-gradient(to bottom, #66bfbf 5%, #0c7a96 100%);
+	background-color:#66bfbf;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 40px;
+	text-decoration:none;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.lastP {
+  color: #EAF6F6;
+  font-size: 14px;
+  padding-top: 20px
+}
+
+
+.footerLink{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 25px 0 25px;
+}
+
+.footerLink:hover {
+  color: #0d7377;
+}
